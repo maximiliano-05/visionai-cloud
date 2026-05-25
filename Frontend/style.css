@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+}
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    color: #0f172a;
+    border-radius: 24px;
+    padding: 35px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.header {
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.header p {
+    color: #475569;
+    font-size: 17px;
+}
+
+.upload-box {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+input[type="file"] {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.secondary {
+    background: #334155;
+    margin-bottom: 15px;
+}
+
+.secondary:hover {
+    background: #1e293b;
+}
+
+.preview img {
+    max-width: 100%;
+    max-height: 350px;
+    display: none;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    border: 1px solid #cbd5e1;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.result-box {
+    background: transparent;
+    color: #0f172a;
+    padding: 0;
+    margin-bottom: 25px;
+    min-height: 60px;
+}
+
+.ai-card {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 18px;
+    padding: 22px;
+    margin-bottom: 15px;
+}
+
+.ai-card h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #0f172a;
+}
+
+.info-row {
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 4px;
+}
+
+.history-card {
+    background: #ffffff;
+}
+
+.loading {
+    background: #eff6ff;
+    color: #1d4ed8;
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid #bfdbfe;
+}
+
+.error {
+    background: #fef2f2;
+    color: #b91c1c;
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid #fecaca;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>VisionAI Cloud</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <div class="header">
+                <h1>VisionAI Cloud</h1>
+                <p>
+                    API de inteligencia artificial como servicio para analizar imágenes.
+                </p>
+            </div>
+
+            <div class="upload-box">
+                <input type="file" id="imageInput" accept="image/*">
+                <button onclick="sendImage()">Analizar con IA</button>
+            </div>
+
+            <div class="preview">
+                <img id="previewImage" alt="Vista previa de imagen">
+            </div>
+
+            <h2>Resultado de la IA</h2>
+            <div id="result" class="result-box">
+                Esperando imagen...
+            </div>
+
+            <h2>Historial</h2>
+            <button class="secondary" onclick="loadHistory()">Ver historial</button>
+            <div id="history" class="result-box">
+                Sin cargar.
+            </div>
+        </section>
+    </main>
+
+    <script src="/frontend/app.js"></script>
+</body>
+</html>

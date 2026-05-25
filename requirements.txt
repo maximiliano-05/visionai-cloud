@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+transformers
+torch
+torchvision
+sentencepiece
+sacremoses
