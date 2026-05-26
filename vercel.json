@@ -1,0 +1,32 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Frontend/index.html"
+    },
+    {
+      "source": "/frontend/:path*",
+      "destination": "/Frontend/:path*"
+    },
+    {
+      "source": "/predict",
+      "destination": "http://56.126.121.8/predict"
+    },
+    {
+      "source": "/history",
+      "destination": "http://56.126.121.8/history"
+    },
+    {
+      "source": "/health",
+      "destination": "http://56.126.121.8/health"
+    },
+    {
+      "source": "/docs",
+      "destination": "http://56.126.121.8/docs"
+    },
+    {
+      "source": "/openapi.json",
+      "destination": "http://56.126.121.8/openapi.json"
+    }
+  ]
+}
