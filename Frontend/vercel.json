@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/Frontend/index.html"
-    },
-    {
       "source": "/frontend/:path*",
-      "destination": "/Frontend/:path*"
+      "destination": "/:path*"
     },
     {
       "source": "/predict",
